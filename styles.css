@@ -1,7 +1,29 @@
 body {
-  color: antiquewhite;
+  background-color: antiquewhite;
   font-family: "Courier New", Courier, monospace;
 }
-h1 {
+h1,
+h2 {
   text-align: center;
+}
+h4 {
+  text-align: center;
+  margin: 50px 0px;
+}
+img {
+  max-width: 700px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  border: 3px solid black;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: cornflowerblue;
+}
+#description {
+  margin: 50px 150px;
 }
